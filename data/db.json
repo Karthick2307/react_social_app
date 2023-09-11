@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "1st post",
+      "datatime": "July 16, 2021 11.45.39 AM",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero maxime commodi, officiis aspernatur expedita officia tenetur quasi ea nisi inventore facere? Inventore quidem voluptas delectus praesentium soluta ullam obcaecati dolore?"
+    },
+    {
+      "id": 2,
+      "title": "Second post",
+      "datatime": "July 16, 2021 11.48.39 AM",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero maxime commodi, officiis aspernatur expedita officia tenetur quasi ea nisi inventore facere? Inventore quidem voluptas delectus praesentium soluta ullam obcaecati dolore?"
+    },
+    {
+      "id": 3,
+      "title": "3rd post",
+      "datatime": "July 16, 2021 11.45.39 AM",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero maxime commodi, officiis aspernatur expedita officia tenetur quasi ea nisi inventore facere? Inventore quidem voluptas delectus praesentium soluta ullam obcaecati dolore?"
+    },
+    {
+      "id": 4,
+      "title": "Testing 4th post ",
+      "datetime": "September 06, 2023 10:30:55 PM",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero maxime commodi, officiis aspernatur expedita officia tenetur quasi ea nisi inventore facere?hi how are u good"
+    },
+    {
+      "id": 5,
+      "title": "Post 5th  ",
+      "datetime": "September 12, 2023 12:33:48 AM",
+      "body": "5th post upload"
+    }
+  ]
+}
