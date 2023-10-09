@@ -1,4 +1,4 @@
-import { Link, Routes, Route, useNavigate} from "react-router-dom";
+import { Routes, Route, useNavigate} from "react-router-dom";
 import About from "./About";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -7,17 +7,12 @@ import Missing from "./Missing";
 import Nav from "./Nav";
 import NewPost from "./NewPost";
 import PostPage from "./PostPage";
-import Post from "./Post";
 import { useEffect, useState } from "react";
 import { format } from "date-fns";
 import api from "./api/posts";
 import EditPost from "./EditPost";
 import useWindowSize from "./hooks/useWindowSize";
 import useAxiosFetch from "./hooks/useAxiosFetch";
-import posts from "./api/posts";
-
-
-
 
 function App() {
   const [posts, setPosts] = useState([]);
@@ -30,7 +25,6 @@ function App() {
     const navigate = useNavigate();
     const {width} = useWindowSize();
     const { data, fetchError, isLoading} = useAxiosFetch('http://localhost:3500/posts');
-
 
   useEffect(() =>{
     setPosts(data);
@@ -86,7 +80,6 @@ function App() {
      } 
   }
   
-
   return (
     <div className="App">
         <Header title="Karthick Social Media" width={width} />
